@@ -55,9 +55,11 @@ $arrHeader[] = "Authorization: Bearer {$strAccessToken}";
  
 $arrPostData = array();
 $arrPostData['to'] = "Ua0ed93023aec653d3d200a441e07f6d6";
-$arrPostData['messages'][0]['type'] = "text";
-$arrPostData['img_url'][0]['img_url'] = "https://cdn.shopify.com/s/files/1/0379/7669/products/sampleset2_1024x1024.JPG?v=1458740363";
- 
+{
+    "type": "image",
+    "originalContentUrl": "https://infest.exe.in.th/topbar/images/logo.png",
+    "previewImageUrl": "https://infest.exe.in.th/topbar/images/logo.png"
+}
  
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL,$strUrl);
