@@ -57,7 +57,7 @@ if (strpos($_msg, 'สอน47') !== false) {
   }else{
     $arrPostData = array();
     $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
-    $arrPostData['messages'][0]['type'] = "text";
+    $arrPostData['messages'][0]['type'] = "47";
     $arrPostData['messages'][0]['text'] = 'ก๊าบบ คุณสามารถสอนให้ฉลาดได้เพียงพิมพ์: สอน47[คำถาม|คำตอบ]';
   }
 }
