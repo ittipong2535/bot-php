@@ -55,11 +55,11 @@ $arrHeader[] = "Authorization: Bearer {$strAccessToken}";
  
 $arrPostData = array();
 $arrPostData['to'] = "Ua0ed93023aec653d3d200a441e07f6d6";
-{
+
     "type": "image",
     "originalContentUrl": "https://infest.exe.in.th/topbar/images/logo.png",
     "previewImageUrl": "https://infest.exe.in.th/topbar/images/logo.png"
-}
+
  
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL,$strUrl);
