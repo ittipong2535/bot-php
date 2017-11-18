@@ -44,7 +44,7 @@ if (strpos($_msg, 'สอน47') !== false) {
     $arrPostData = array();
     $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
     $arrPostData['messages'][0]['type'] = "text";
-    $arrPostData['messages'][0]['text'] = 'ขอบคุณที่สอน47';
+    $arrPostData['messages'][0]['text'] = '😻😻ขอบคุณค่ะที่สอนบอทน่ารักน่ารักแบบนี้ 😽😽😽😽';
   }
 }else{
   if($isData >0){
