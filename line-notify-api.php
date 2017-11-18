@@ -23,7 +23,7 @@ if($name<>"" || $email <> "" || $mesg <> "") {
 function sendlinemesg() {
 	
     define('LINE_API',"https://notify-api.line.me/api/notify");
-	define('LINE_TOKEN','XjnLlposcVcyUaAE096UNaTdk3Dt0M0htHkCW3spYnV');
+	define('LINE_TOKEN','n971CI4lYyyhfdUdsQg7RqAUr9vjES8LCkVGRuaPCmz');
 
 	function notify_message($message){
 
